@@ -1,0 +1,68 @@
+.body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 600px;
+    border-radius: 25px;
+    outline-style: solid;
+    background-color: darkolivegreen;
+}
+
+.title{
+    padding-bottom: 40px;
+    padding-top: 15px;
+    user-select: none;
+    font-weight: bold;
+    color: olivedrab;
+}
+
+.answer-board{
+    width: 275px;
+    height: 75px;
+    background-color: white;
+    outline-style: solid;
+    direction: rtl;
+
+}
+
+.answer{
+    display: inline-block;
+    font-size: 45px;
+    width: 100%;
+    height: 100%;
+    line-height: 75px;
+    text-align: center;
+}
+
+.keyboard{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 8px;
+    padding-top: 40px;
+    width: 90%;
+    user-select: none;
+}
+
+.keypad{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center; 
+}
+
+.keypad:hover{
+    background-color: rgba(240, 240, 240, 0.8);
+}
+.keypad:active{
+    background-color: rgba(200, 200, 200, 0.8);
+}
